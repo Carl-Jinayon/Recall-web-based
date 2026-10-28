@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Recall is a local spaced-review app for retaining what you study."
+    />
+    <meta name="theme-color" content="#1d2521" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Recall · Spaced Review</title>
+    <script>
+      try {
+        var raw = localStorage.getItem("recall.state.v1");
+        var theme = raw ? JSON.parse(raw).theme : null;
+        if (!theme) {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

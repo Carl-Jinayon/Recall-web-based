@@ -1,0 +1,1091 @@
+{
+  "source": "../curriculum/complete-curriculum.md",
+  "importedAt": "2026-10-28T00:33:34.238Z",
+  "tracks": [
+    {
+      "id": 1,
+      "name": "Programming Fundamentals"
+    },
+    {
+      "id": 2,
+      "name": "Mathematics"
+    },
+    {
+      "id": 3,
+      "name": "Algorithms & Data Structures"
+    },
+    {
+      "id": 4,
+      "name": "Computer Systems"
+    },
+    {
+      "id": 5,
+      "name": "Databases"
+    },
+    {
+      "id": 6,
+      "name": "Networking & Cloud"
+    },
+    {
+      "id": 7,
+      "name": "Security"
+    },
+    {
+      "id": 8,
+      "name": "AI & Machine Learning"
+    },
+    {
+      "id": 9,
+      "name": "Software Engineering Practice"
+    },
+    {
+      "id": 10,
+      "name": "Web & Product"
+    },
+    {
+      "id": 11,
+      "name": "Business & Career"
+    },
+    {
+      "id": 12,
+      "name": "Human & Cognitive"
+    }
+  ],
+  "topics": [
+    {
+      "id": "t1-syntax-types-control-flow-functions-scope",
+      "title": "Syntax, types, control flow, functions, scope",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Week 1 of everything. In 2–3 languages, not 10.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-data-types-and-mutability",
+      "title": "Data types and mutability",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Value vs reference semantics; why this causes bugs.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-lists-arrays-dictionaries-maps-sets",
+      "title": "Lists/arrays, dictionaries/maps, sets",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "The three structures I use daily.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-files-i-o-exceptions-error-handling",
+      "title": "Files, I/O, exceptions, error handling",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Including when not to use exceptions.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-modules-packages-dependency-management",
+      "title": "Modules, packages, dependency management",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-oop-vs-functional-vs-procedural",
+      "title": "OOP vs functional vs procedural",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "I use all three; I understand tradeoffs.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-recursion-iteration-memoization",
+      "title": "Recursion, iteration, memoization",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "DEEP",
+      "notes": "Memoization is a core algorithmic tool, not trivia.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-testing-unit-integration",
+      "title": "Testing (unit, integration)",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "I write tests from project one, not after a bug.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-debugging-technique",
+      "title": "Debugging technique",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "DEEP",
+      "notes": "The single most underrated skill. Debugging is most of engineering.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-version-control-git-deeply",
+      "title": "Version control (Git) deeply",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Branching, rebasing, bisect, reflog, submodules, worktrees. Non-negotiable for collaboration.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-reading-unfamiliar-code",
+      "title": "Reading unfamiliar code",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "DEEP",
+      "notes": "My #1 skill in a self-taught career. I read real codebases constantly.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-code-style-linting-formatting",
+      "title": "Code style, linting, formatting",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Consistency matters more than personal preference.",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-documentation-comment-discipline",
+      "title": "Documentation & comment discipline",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "",
+      "kind": "topic"
+    },
+    {
+      "id": "t1-language-python",
+      "title": "Python",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING early → DEEP permanent",
+      "notes": "Language sequence. First language, then never abandoned. AI/ML/backend/infra all use it.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-javascript-typescript",
+      "title": "JavaScript/TypeScript",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "DEEP",
+      "notes": "Language sequence. Required for full-stack and for my shipped products.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-sql",
+      "title": "SQL",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "DEEP",
+      "notes": "Language sequence. Non-negotiable, more than most people study. See Track 5.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-go",
+      "title": "Go",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Language sequence. My \"systems in 1000 lines\" language. Infra, CLIs, services.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-rust",
+      "title": "Rust",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Language sequence. The security/systems language. Ownership model, memory safety. I get here after Go.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-c",
+      "title": "C",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Language sequence. One serious pass to understand memory, pointers, and what the machine actually does. Reading, not authoring.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-bash",
+      "title": "Bash",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Language sequence. I live in a shell.",
+      "kind": "language"
+    },
+    {
+      "id": "t1-language-html-css",
+      "title": "HTML/CSS",
+      "trackId": 1,
+      "track": "Programming Fundamentals",
+      "depth": "WORKING",
+      "notes": "Language sequence. Enough to ship real front-ends.",
+      "kind": "language"
+    },
+    {
+      "id": "t2-discrete-math-proof-techniques",
+      "title": "Discrete math & proof techniques",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "DEEP",
+      "notes": "Logic, sets, functions, relations, induction, counting, graph theory. The mathematical core of CS.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-linear-algebra",
+      "title": "Linear algebra",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "DEEP",
+      "notes": "Vectors, matrices, eigenvalues, vector spaces. Indispensable for ML and graphics.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-probability-statistics",
+      "title": "Probability & statistics",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "DEEP",
+      "notes": "Distributions, Bayes, expectation/variance, hypothesis testing. Required for ML, and for thinking clearly under uncertainty.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-calculus-single-multivariable",
+      "title": "Calculus (single + multivariable)",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "WORKING",
+      "notes": "Derivatives, integrals, gradients. I need intuition, not theorem-proving.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-numerical-thinking",
+      "title": "Numerical thinking",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "WORKING",
+      "notes": "Floating point, precision, error propagation. Why 0.1 + 0.2 != 0.3 matters in real systems.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-complexity-theory-basics",
+      "title": "Complexity theory basics",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "AWARE",
+      "notes": "P vs NP as a concept; enough to know why some problems are hard.",
+      "kind": "topic"
+    },
+    {
+      "id": "t2-number-theory-basics",
+      "title": "Number theory basics",
+      "trackId": 2,
+      "track": "Mathematics",
+      "depth": "AWARE",
+      "notes": "Modular arithmetic (I meet it in crypto). Doesn't need depth for my track.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-complexity-analysis",
+      "title": "Complexity analysis",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Big-O thinking, amortized analysis, space-time tradeoffs.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-linear-structures",
+      "title": "Linear structures",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Arrays, linked lists, stacks, queues, deques.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-hash-based-structures",
+      "title": "Hash-based structures",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Hash tables, collision resolution, load factor, consistent hashing.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-trees",
+      "title": "Trees",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Binary trees, BSTs, balanced trees (AVL, red-black), B-trees (how databases actually work), heaps, tries.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-graphs",
+      "title": "Graphs",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Representation, BFS/DFS, topological sort, shortest paths (Dijkstra, A*), MST, graph algorithms.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-sorting",
+      "title": "Sorting",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Insertion, merge, quick, heap, counting, radix. And when each is right.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-algorithm-families",
+      "title": "Algorithm families",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "Divide & conquer, greedy, dynamic programming, backtracking, two-pointer, sliding window.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-string-algorithms",
+      "title": "String algorithms",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "WORKING",
+      "notes": "KMP, regex, tokenization, parsing.",
+      "kind": "topic"
+    },
+    {
+      "id": "t3-problem-solving-practice",
+      "title": "Problem-solving practice",
+      "trackId": 3,
+      "track": "Algorithms & Data Structures",
+      "depth": "DEEP",
+      "notes": "2–3 problems/week, years 2–4, forever at lower volume after.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-how-cpus-work",
+      "title": "How CPUs work",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "WORKING",
+      "notes": "Fetch/execute, registers, pipelining, cache hierarchy (L1→L3, this matters constantly).",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-memory",
+      "title": "Memory",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "WORKING",
+      "notes": "The stack vs the heap, virtual memory, why allocation is expensive, alignment, pointers.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-assembly-basics",
+      "title": "Assembly basics",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "AWARE",
+      "notes": "x86-64 and ARM: read simple functions, understand calling conventions and registers. I don't write production assembly.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-operating-systems",
+      "title": "Operating systems",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "DEEP",
+      "notes": "Processes vs threads, scheduling, virtual memory, file systems, I/O, IPC, signals. Concepts, not kernel dev.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-concurrency",
+      "title": "Concurrency",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "DEEP",
+      "notes": "Threads, race conditions, deadlocks, mutexes, atomics, async/event loops, Go's goroutines, parallelism vs concurrency. Where nearly all real bugs live.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-compilers-basics",
+      "title": "Compilers basics",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "WORKING",
+      "notes": "Lexing → parsing → semantic analysis → optimization → codegen. Just enough to understand what my code compiles to.",
+      "kind": "topic"
+    },
+    {
+      "id": "t4-systems-programming",
+      "title": "Systems programming",
+      "trackId": 4,
+      "track": "Computer Systems",
+      "depth": "WORKING",
+      "notes": "File I/O, sockets, processes, signals, linking, build systems (CMake/Make).",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-sql-deeply",
+      "title": "SQL deeply",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "Joins, subqueries, CTEs, window functions, indexing, query plans, transactions. This is a career skill, not a class.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-relational-theory",
+      "title": "Relational theory",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "WORKING",
+      "notes": "Normalization, keys, constraints, ACID.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-storage-internals",
+      "title": "Storage internals",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "B-trees, page layout, LSM trees, WAL, buffer pools, compaction. Why databases are fast.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-transactions-isolation",
+      "title": "Transactions & isolation",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "ACID, isolation levels, serializability, optimistic vs pessimistic locking, deadlocks in practice.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-query-optimization",
+      "title": "Query optimization",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "Reading EXPLAIN plans, index selection, join strategies. An underrated interview topic.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-replication-partitioning",
+      "title": "Replication & partitioning",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "Leader-follower, sharding, consensus basics, read replicas.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-distributed-sql-nosql-tradeoffs",
+      "title": "Distributed SQL & NoSQL tradeoffs",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "WORKING",
+      "notes": "CAP theorem in practice, eventual consistency, when each design wins.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-data-modeling",
+      "title": "Data modeling",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "WORKING",
+      "notes": "Designing schemas that survive real requirements.",
+      "kind": "topic"
+    },
+    {
+      "id": "t5-practicing-on-real-engines",
+      "title": "Practicing on real engines",
+      "trackId": 5,
+      "track": "Databases",
+      "depth": "DEEP",
+      "notes": "PostgreSQL deeply; one NoSQL store (MongoDB or Redis).",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-the-osi-tcp-ip-model",
+      "title": "The OSI/TCP-IP model",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Layers, encapsulation, what actually happens on a request.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-tcp-deeply",
+      "title": "TCP deeply",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Handshake, congestion control, flow control, sockets, why it's reliable and slow.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-udp-real-time",
+      "title": "UDP & real-time",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "WebRTC, QUIC, gaming, streaming.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-dns",
+      "title": "DNS",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Resolution, records, caching, why it's the internet's phone book. Backs up everything.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-http-https",
+      "title": "HTTP & HTTPS",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Methods, status codes, headers, keep-alive, caching, HTTP/2, HTTP/3. Daily tool.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-tls-ssl",
+      "title": "TLS/SSL",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Certificates, handshakes, why it matters. Directly feeds my security track.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-load-balancing-cdns-reverse-proxies",
+      "title": "Load balancing, CDNs, reverse proxies",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-cloud-aws-or-gcp",
+      "title": "Cloud (AWS or GCP)",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "Compute, storage, networking, IAM, serverless, managed databases.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-docker-containers",
+      "title": "Docker & containers",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "DEEP",
+      "notes": "Images, layers, networking, volumes. Non-negotiable for shipping.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-kubernetes-basics",
+      "title": "Kubernetes basics",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "Pods, services, deployments, config, scaling. Working level; I'm not writing controllers.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-ci-cd",
+      "title": "CI/CD",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "Pipelines, testing gates, deployments. And understanding failures.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-infrastructure-as-code",
+      "title": "Infrastructure as code",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "AWARE",
+      "notes": "Terraform basics. Enough to write and review infra.",
+      "kind": "topic"
+    },
+    {
+      "id": "t6-observability",
+      "title": "Observability",
+      "trackId": 6,
+      "track": "Networking & Cloud",
+      "depth": "WORKING",
+      "notes": "Logging, metrics, tracing, alerting, on-call debugging. The real job skill.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-security-fundamentals",
+      "title": "Security fundamentals",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "CIA triad, threat modeling, risk assessment, least privilege, defense in depth.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-applied-cryptography",
+      "title": "Applied cryptography",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "Symmetric (AES), asymmetric (RSA/ECC), hashing (SHA), key exchange, HMAC, protocols. Understand why each exists and how it's misused.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-web-security",
+      "title": "Web security",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "OWASP Top 10, injection (SQLi, command), XSS, CSRF, SSRF, auth/session flaws, insecure deserialization.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-network-security",
+      "title": "Network security",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "WORKING",
+      "notes": "Firewalls, TLS interception, VPN, common network attacks.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-binary-exploitation-reverse-engineering",
+      "title": "Binary exploitation & reverse engineering",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "WORKING",
+      "notes": "Buffers/overflows, stack/heap, Ghidra/IDA, CTFs. I don't need to be an elite reverser; I need to understand memory corruption because AI systems introduce the same class of bug.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-secure-code-review",
+      "title": "Secure code review",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "Reading code for vulnerabilities is a distinct, high-value skill.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-ai-llm-security",
+      "title": "AI/LLM security",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "My core specialty: prompt injection, jailbreaking, indirect injection, data poisoning, model extraction, sensitive-data leakage, RAG poisoning, tool-calling/agent vulnerabilities, supply-chain risk in model/dependency provenance, eval-driven red-teaming.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-threat-modeling-ai-systems",
+      "title": "Threat modeling AI systems",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "DEEP",
+      "notes": "Designing an LLM app adversarially: what's the trust boundary, what's user-controlled, what does the model get to execute.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-ai-governance-compliance",
+      "title": "AI governance & compliance",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "WORKING",
+      "notes": "The EU AI Act's risk tiers, US state laws, model cards, audit trails. This is where regulation-driven work lives.",
+      "kind": "topic"
+    },
+    {
+      "id": "t7-ctfs-practice-labs",
+      "title": "CTFs & practice labs",
+      "trackId": 7,
+      "track": "Security",
+      "depth": "WORKING",
+      "notes": "Continuous, hands-on. Security without practice is theater.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-ml-fundamentals",
+      "title": "ML fundamentals",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "Supervised/unsupervised, regression/classification, training/validation/test, overfitting, metrics, feature engineering.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-math-for-ml",
+      "title": "Math for ML",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "Linear algebra + probability applied to models. This is why Track 2 matters.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-neural-networks-deep-learning",
+      "title": "Neural networks & deep learning",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "Architectures, training, backprop intuition, transformers. Understand a transformer properly.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-llms-specifically",
+      "title": "LLMs specifically",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "Training vs inference, tokenization, context windows, fine-tuning (LoRA, RLHF conceptually), RAG, agents, tool use, evals, latency/cost tradeoffs.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-practical-ml-engineering",
+      "title": "Practical ML engineering",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "WORKING → DEEP as my specialty matures",
+      "notes": "Data pipelines, feature stores, serving, monitoring, drift. Where ML meets real systems.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-hands-on-frameworks",
+      "title": "Hands-on frameworks",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "WORKING",
+      "notes": "PyTorch (deep), Hugging Face ecosystem, scikit-learn. Vector databases.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-building-llm-apps",
+      "title": "Building LLM apps",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "This is my shipped-product territory. Build real applications: agents, RAG systems, eval harnesses, guardrails.",
+      "kind": "topic"
+    },
+    {
+      "id": "t8-model-limitations-failure-modes",
+      "title": "Model limitations & failure modes",
+      "trackId": 8,
+      "track": "AI & Machine Learning",
+      "depth": "DEEP",
+      "notes": "Hallucination, context poisoning, brittleness. This is where security meets AI.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-system-design",
+      "title": "System design",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "DEEP",
+      "notes": "Requirements → architecture → data models → APIs → scaling → failure modes. The senior interview skill and the founder skill.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-api-design",
+      "title": "API design",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "WORKING",
+      "notes": "REST, versioning, contracts, error models, idempotency. Feeding my services-first business path.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-code-review-giving-and-receiving",
+      "title": "Code review (giving and receiving)",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "DEEP",
+      "notes": "A skill I must practice deliberately.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-software-design-patterns",
+      "title": "Software design patterns",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "WORKING",
+      "notes": "Enough to recognize and apply; not dogma.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-type-systems-static-typing",
+      "title": "Type systems & static typing",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "WORKING",
+      "notes": "TypeScript in practice; the mental model of types-as-contracts.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-project-management-estimation",
+      "title": "Project management & estimation",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "WORKING",
+      "notes": "Scoping, breaking down, tracking. Needed even solo (my own projects are projects).",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-technical-writing",
+      "title": "Technical writing",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "DEEP",
+      "notes": "Design docs, RFCs, READMEs, blog posts. My most leveraged non-code skill.",
+      "kind": "topic"
+    },
+    {
+      "id": "t9-communication",
+      "title": "Communication",
+      "trackId": 9,
+      "track": "Software Engineering Practice",
+      "depth": "DEEP",
+      "notes": "Explaining technical work to non-engineers; this is a promotion and a sales skill.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-frontend-fundamentals",
+      "title": "Frontend fundamentals",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "HTML, CSS, JavaScript, accessibility, responsive design.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-react-modern-frontend",
+      "title": "React + modern frontend",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "Component model, state, build tooling. A tool, not a career.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-backend-development",
+      "title": "Backend development",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "API servers, auth, background jobs, queues, caching, sessions.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-full-stack-integration",
+      "title": "Full-stack integration",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "Connecting frontend to backend to database to deployment.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-web-performance-ux-basics",
+      "title": "Web performance & UX basics",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "Load times, Core Web Vitals. Users abandon slow products.",
+      "kind": "topic"
+    },
+    {
+      "id": "t10-product-intuition",
+      "title": "Product intuition",
+      "trackId": 10,
+      "track": "Web & Product",
+      "depth": "WORKING",
+      "notes": "What people actually want, MVP discipline, feedback loops. Feeds the business track.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-how-money-actually-works",
+      "title": "How money actually works",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "DEEP",
+      "notes": "Personal finance, investing, taxes, equity comp, negotiation. See 09-money.md.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-negotiation",
+      "title": "Negotiation",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "DEEP",
+      "notes": "Salary, contracts, client pricing. A directly income-affecting skill I get from no course.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-selling",
+      "title": "Selling",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "DEEP",
+      "notes": "The business-critical skill. Cold outreach, discovery, demos, objection handling, closing, pricing. Tested starting year 3.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-marketing-distribution",
+      "title": "Marketing & distribution",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "WORKING",
+      "notes": "SEO, content, social, launch. How products find users (and how my audience grows).",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-customer-development",
+      "title": "Customer development",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "WORKING",
+      "notes": "Talking to users, finding the real problem, product-market fit.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-freelancing-agency-operations",
+      "title": "Freelancing & agency operations",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "WORKING",
+      "notes": "Contracts, invoicing, scoping, client management. My income bridge and business seed.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-leadership-management",
+      "title": "Leadership & management",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "WORKING (needed later)",
+      "notes": "Hiring, 1:1s, delegation. I don't need it until I have a team.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-fundraising-finance-business",
+      "title": "Fundraising & finance (business)",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "AWARE",
+      "notes": "When I start the company. Not before.",
+      "kind": "topic"
+    },
+    {
+      "id": "t11-english",
+      "title": "English",
+      "trackId": 11,
+      "track": "Business & Career",
+      "depth": "DEEP",
+      "notes": "Continuous, daily. The gate to all global income. See 08-daily-operating-system.md.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-how-to-learn",
+      "title": "How to learn",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "Deliberate practice, spaced repetition, the Feynman technique, staying current without drowning. The meta-skill that makes self-teaching viable.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-debugging-root-causing-under-pressure",
+      "title": "Debugging & root-causing under pressure",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-systems-thinking",
+      "title": "Systems thinking",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "Seeing feedback loops and second-order effects (in systems and in careers).",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-decision-making-judgment",
+      "title": "Decision-making & judgment",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "Expected value, base rates, avoiding overconfidence. Especially about my own roadmap.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-focus-attention",
+      "title": "Focus & attention",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "WORKING",
+      "notes": "Deep work in a distracted era. My scarcest resource is uninterrupted hours.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-writing-to-think",
+      "title": "Writing to think",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "I think by writing. Every complex problem gets a document.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-reading-real-code-papers",
+      "title": "Reading real code & papers",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "Ongoing. Reading source and research is how I stay current and build taste.",
+      "kind": "topic"
+    },
+    {
+      "id": "t12-mental-physical-health",
+      "title": "Mental & physical health",
+      "trackId": 12,
+      "track": "Human & Cognitive",
+      "depth": "DEEP",
+      "notes": "Sleep, exercise, diet, mental health. Career infrastructure, see 11-bets-and-hedges.md.",
+      "kind": "topic"
+    }
+  ]
+}
