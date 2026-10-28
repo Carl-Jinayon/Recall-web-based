@@ -1,0 +1,26 @@
+HOW TO RUN RECALL
+=================
+
+Easiest way (Windows)
+---------------------
+1. Install Node.js LTS from https://nodejs.org.
+2. Double-click "Start Recall.cmd" in this folder.
+3. Keep the window open and use http://localhost:5173.
+
+Any operating system
+--------------------
+1. Install Node.js 20.19+ or 22.12+.
+2. Open a terminal in this folder.
+3. Run: npm install
+4. Run: npm start
+5. Open http://localhost:5173.
+
+To stop
+-------
+Press Ctrl+C in the terminal, or close the command window.
+
+Notes
+-----
+- The first launch needs internet access to install dependencies.
+- Review data is stored in your browser at http://localhost:5173.
+- Export a backup from Settings before clearing browser data.
